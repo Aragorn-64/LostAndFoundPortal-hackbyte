@@ -1,0 +1,23 @@
+button{
+    border-radius: 50px;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.topbar,
+.topnav {
+    padding-top: 150 px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.link {
+    padding: 15px;
+    float: right;
+}
+
+.card {
+    text-align: center;
+}
