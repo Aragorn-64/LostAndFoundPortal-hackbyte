@@ -20,5 +20,9 @@
   "homepage": "https://github.com/Aragorn-64/LostAndFoundPortal-hackbyte#readme",
   "dependencies": {
     "firebase": "^9.6.11"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
   }
 }
