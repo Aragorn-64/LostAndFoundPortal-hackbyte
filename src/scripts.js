@@ -7,3 +7,7 @@ function myFunction() {
         x.style.display = "none";
     }
 }
+
+function isLoggedIn(){
+    var x = document.getElementById("")
+}
