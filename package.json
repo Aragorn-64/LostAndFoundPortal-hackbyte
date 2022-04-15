@@ -1,0 +1,24 @@
+{
+  "name": "lostandfoundportal-hackbyte",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Lost and Found website for IIITDM Jabalpur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aragorn-64/LostAndFoundPortal-hackbyte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aragorn-64/LostAndFoundPortal-hackbyte/issues"
+  },
+  "homepage": "https://github.com/Aragorn-64/LostAndFoundPortal-hackbyte#readme",
+  "dependencies": {
+    "firebase": "^9.6.11"
+  }
+}
