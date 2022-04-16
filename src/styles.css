@@ -3,14 +3,7 @@ button{
 }
 
 body {
-    background-color: cornsilk;
-}
-
-.topbar,
-.topnav {
-    padding-top: 150 px;
-    background-color: aqua;
-    text-align: center;
+    background-color: rgb(182, 208, 246);
 }
 
 .link {
