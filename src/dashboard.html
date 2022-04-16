@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,15 +15,16 @@
     </link>
     <script type="text/javascript" src="/src/scripts.js"></script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" 
+    <meta name="google-signin-client_id"
         content="100198826649-0a6h9ngc21aqmvveddvoqkc80vi8l6dj.apps.googleusercontent.com">
 
-        <!-- firebase rtd -->
-        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-        
+    <!-- firebase rtd -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
 
 
 </head>
+
 <body>
     <!-- Navbar start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -78,18 +80,66 @@
     <!-- Lower body begins -->
     <h1 style="text-align: center;">Account Dashboard</h1>
     <div class="row">
-        <div class="col" style="padding-left: 5%; padding-bottom: 2%; padding-right: 2%;">
-            <!-- <form action=""> -->
-            <form>
-                <label for="fname">Display name: </label><br>
-                <input type="text" id="dname" name="dname"><br>
-                <label for="lname">Phone number: (optional)</label><br>
-                <input type="number" id="pnumber" name="pnumber">
-                <!-- <button  -->
-            </form>
+
+        <div class="col">
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Fill / update your contact details:</h3>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <label for="fname">Display name: </label><br>
+                        <input type="text" id="dname" name="dname"><br>
+                        <label for="lname">Phone number: (optional)</label><br>
+                        <input type="number" id="pnumber" name="pnumber"> <br><br>
+
+                        <input class="btn btn-primary" type="submit" value="Submit">
+
+                    </form>
+
+                </div>
+            </div>
+
+            
         </div>
         <div class="col">
-            2
+            <center>
+                <br>
+                <!-- <h3>Create new item listing: </h3>
+                <a class="btn btn-primary" href="#" role="button">LOST</a>
+                &emsp;&emsp;&emsp;&emsp;&emsp;
+                <a class="btn btn-primary" href="#" role="button">FOUND</a> -->
+                <div class="card">
+                    
+                    <div class="card-header">
+                        <h3>Create new item listing:</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">With supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <center>
+                        <a href="#" class="btn btn-primary">Lost</a>
+                        &emsp;&emsp;&emsp;
+                        <a href="#" class="btn btn-primary">Found</a>
+                        </center>
+                    </div>
+                    
+                </div>
+            </center>
+
+        </div>
+        <div class="col">
+            <center>
+                <br>
+                <h3>Notifications:</h3>
+                <div class="card">
+                    <div class="card-body">
+                        This is some text within a card body.
+                    </div>
+                </div>
+            </center>
+
         </div>
     </div>
     <div class="row">
@@ -102,6 +152,7 @@
     </div>
     <!-- Lower body ends -->
 
-    
+
 </body>
+
 </html>
