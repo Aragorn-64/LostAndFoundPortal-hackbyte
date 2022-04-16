@@ -17,11 +17,11 @@
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta name="google-signin-client_id"
         content="100198826649-0a6h9ngc21aqmvveddvoqkc80vi8l6dj.apps.googleusercontent.com">
-        <style>
-            .col{
-                margin: auto;
-            }
-        </style>
+    <style>
+        .col {
+            margin: auto;
+        }
+    </style>
 
 </head>
 
@@ -30,7 +30,7 @@
 
 
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
         <a class="navbar-brand" href="#">
             <div class="row">
                 <div class="col">
@@ -48,17 +48,17 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#" style=" color: black;"><b>Home</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Lost and Found Items Listing</a>
+                    <a class="nav-link" href="/src/ItemListing.html" style=" color: black;">Lost and Found Items Listing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Account Dashboard</a>
+                    <a class="nav-link" href="/src/dashboard.html" style=" color: black;">Account Dashboard</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
+                </li> -->   
                 <li>
                     <div class="g-signin2" data-onsuccess="onSignIn"></div>
                 </li>
@@ -84,17 +84,21 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <img src="/res/LostAndFoundEmailsSS - Copy.png" height="350px" alt="">
-            </div>
-            <div style="width: max-content; text-align: center; vertical-align: center;" class="col">
-                This Lost and Found portal is created for "Hackbyte" 24hr hackathon by Team Segmentation Faults : Advay
-                Sagarkar, Aishwarya Saxena and
-                Divyansh Tripathi of 1st year CSE dept.
-
+                <img src="/res/LostAndFoundEmailsScreen.png" height="300px">
             </div>
             <div class="col">
-                <img src="/res/LostAndFoundEmailsSS - Copy.png" height="350px" style="align-self: left;" alt="">
+                <P>
+                    <H3>
+                        text here
+                    </H3>
+                </P>
+                <!-- <p>This Lost and Found portal is created for "Hackbyte" 24hr hackathon by Team Segmentation Faults :
+                    Advay Sagarkar, Aishwarya Saxena and Divyansh Tripathi of 1st year CSE dept.</p> -->
+
             </div>
+            <!-- <div class="col">
+                <img src="/res/LostAndFoundEmailsScreen.png" height="300px" >
+            </div> -->
         </div>
     </div>
     <hr>
@@ -105,16 +109,23 @@
         If you find any bugs/errors please contact one of <i>21BCS011, 21BCS013, 21BCS078.</i>
     </p>
     <hr>
-    <div class="card" style="width: 18rem">
-        <p>Steps to raise your quries</p>
-        <ul>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-        </ul>
-    </div>
+
+    <center>
+        <div class="card" style="width: fit-content; text-align: center;">
+            <div class="card-header">
+                <i>Anyone can access the Lost and Found listings, but need to be authenticated to access Dashboard.</i>
+            </div>
+            <p>Steps to raise your quries</p>
+            <ul>
+                <li>Login with your institute email account.</li>
+                <li>Access your account dashboard and update your Contact details.</li>
+                <li>Create new Lost or Found item listing.</li>
+                <li>Fill the respective form.</li>
+                <li>Get notified about any claims / updates on your claims.</li>
+            </ul>
+        </div>
+    </center>
+
 
 
     <!-- Lower body ends -->

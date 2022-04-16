@@ -27,7 +27,7 @@
 
 <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
         <a class="navbar-brand" href="#">
             <div class="row">
                 <div class="col">
@@ -44,18 +44,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/homepage.html" style=" color: black;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/ItemListing.html" style=" color: black;">Lost and Found Items Listing</a>
+                </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#" style=" color: black;"><b>Account Dashboard</b></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Lost and Found Items Listing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Account Dashboard</a>
-                </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
+                </li> -->
                 <li>
                     <div class="g-signin2" data-onsuccess="onSignIn"></div>
                 </li>
@@ -78,6 +78,7 @@
 
 
     <!-- Lower body begins -->
+    <br><br>
     <h1 style="text-align: center;">Account Dashboard</h1>
     <div class="row">
 
@@ -94,7 +95,7 @@
                         <label for="lname">Phone number: (optional)</label><br>
                         <input type="number" id="pnumber" name="pnumber"> <br><br>
 
-                        <input class="btn btn-primary" type="submit" value="Submit">
+                        <input class="btn btn-primary" type="submit" value="Submit"><br><br><br><br><br><br>
 
                     </form>
 
@@ -112,12 +113,12 @@
                         <h3>Create new item listing:</h3>
                     </div>
                     <div class="card-body">
-                        <p class="card-text">With supporting text below as a natural lead-in to additional
-                            content.</p>
+                        <p class="card-text">Fill a form with the respective details including Item Discription tags, Location lost/found and Time, Date .</p>
+                            <br><br><br><br>
                         <center>
                         <a href="#" class="btn btn-primary">Lost</a>
                         &emsp;&emsp;&emsp;
-                        <a href="#" class="btn btn-primary">Found</a>
+                        <a href="#" class="btn btn-primary">Found</a><br><br><br><br><br><br>
                         </center>
                     </div>
                     
@@ -128,24 +129,21 @@
         <div class="col">
             <center>
                 <br>
-                <h3>Notifications:</h3>
+                
                 <div class="card">
+                    <div class="card-header">
+                        <h3>Notifications:</h3>
+                    </div>
                     <div class="card-body">
-                        This is some text within a card body.
+                        <i>You have no current Notifications</i>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br>
                     </div>
                 </div>
             </center>
 
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            3
-        </div>
-        <div class="col">
-            4
-        </div>
-    </div>
+    
     <!-- Lower body ends -->
 
 
